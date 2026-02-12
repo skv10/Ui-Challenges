@@ -24,23 +24,65 @@
     </style>
   </head>
   <body>
-    <!-- Add your site or application content here -->
-    <h1 class="text-5xl text-center font-semibold pt-20">
-      Hello world! Write your content here.
-    </h1>
+     <div class="page">
+    <main class="layout">
+      <section class="statistics">
 
-    <!-- Attribute this challenge to yourself! -->
-    <div class="credits">
-      A challenge by
-      <a
-        href="https://www.greatfrontend.com/projects?ref=challenges"
-        target="_blank"
-        >GreatFrontEnd Projects</a
-      >. Built by
-      <a href="https://www.greatfrontend.com/u/your_username" target="_blank"
-        >Your Name</a
-      >.
-    </div>
-    <script src="js/index.js"></script>
+        <header class="statistics__header">
+          <span class="statistics__label">Statistics</span>
+
+          <h1 class="statistics__title">
+            More than premium abstract imagery
+          </h1>
+
+          <p class="statistics__description">
+            Our platform is more than just a service to us - it is a catalyst for
+            enriching lives through premium abstract imagery.
+          </p>
+        </header>
+
+        <div class="statistics__grid">
+
+          <div class="statistics__image-wrapper">
+            <img 
+              src="./img/white-blocks.png" 
+              alt="Abstract white geometric blocks"
+              class="statistics__image"
+            />
+          </div>
+
+          <div class="statistics__content">
+
+            <p class="statistics__content-label">
+              Our mission, in numbers
+            </p>
+
+            <div class="statistics__cards">
+
+              <div class="stat-card">
+                <p class="stat-card__value">25,664,890</p>
+                <p class="stat-card__label">Downloads</p>
+              </div>
+
+              <div class="stat-card">
+                <p class="stat-card__value">17,219</p>
+                <p class="stat-card__label">Paid users</p>
+              </div>
+
+              <div class="stat-card">
+                <p class="stat-card__value">190,654,321</p>
+                <p class="stat-card__label">Images in library</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+    </main>
+  </div>
+  <script src="js/index.js"></script>
   </body>
 </html>
